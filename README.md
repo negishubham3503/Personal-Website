@@ -24,4 +24,11 @@ To start the client alone:<br>
 
 <h3>Note: </h3>Always create and switch to new branch when working on new feature, before adding or commiting the changes<br>
 This can be done using:<br>
+
 <b>git checkout -b Feature_branch_name</b>
+
+Also pull changes from dev before pushing to your remote branch<br>
+<b>git pull origin dev</b>
+=======
+<b>git checkout -b Feature_branch_name</b>
+
