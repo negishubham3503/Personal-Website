@@ -3,7 +3,7 @@
 To get started:
 
 Clone the dev branch using:<br>
-<b>git clone -b dev <repo url></b>
+<b>git clone -b dev repo url</b>
 
 Install server dependencies:<br>
 <b>npm install</b>
@@ -24,4 +24,7 @@ To start the client alone:<br>
 
 <h3>Note: </h3>Always create and switch to new branch when working on new feature, before adding or commiting the changes<br>
 This can be done using:<br>
-<b>git checkout -b /Feature_branch_name/</b>
+<b>git checkout -b Feature_branch_name</b>
+
+Also pull changes from dev before pushing to your remote branch<br>
+<b>git pull origin dev</b>
